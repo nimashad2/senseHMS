@@ -7,13 +7,15 @@ import { UserComponent } from './user/user.component';
 import { LoginComponent } from './user/login/login.component';
 import { ReactiveFormsModule, FormsModule } from "@angular/forms";
 import { HomeComponent } from './home/home.component';
+import { MenuComponent } from './home/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
