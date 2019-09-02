@@ -8,7 +8,9 @@
     border: 1px solid yellow;
     opacity: 0.9; */
 }
-
+.error {
+    color: red;
+  }
 
 .nav-side-menu {
     overflow: auto;

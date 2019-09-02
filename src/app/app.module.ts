@@ -8,6 +8,7 @@ import { LoginComponent } from './user/login/login.component';
 import { ReactiveFormsModule, FormsModule } from "@angular/forms";
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './home/menu/menu.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MenuComponent } from './home/menu/menu.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
