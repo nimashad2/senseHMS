@@ -1,20 +1,16 @@
 
-<nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand text-white">Sense HMS</a>
-    <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
-  </nav>
-  
- 
-      
-    <div class="row">
-      <div class="col-sm-2">
-        <app-menu></app-menu>
-      </div>
-      <div class="col-sm-10">
-        <p>asdsdaddddddd
-          asdad 
-        </p>
-      </div>
-    </div>
+<!-- <mat-toolbar color="primary" class="bg-dark">
+  <mat-toolbar-row>
+      <h1>SenseHMS</h1>
+      <span class="menu-spacer"></span>
+      <span class="example-fill-remaining-space"></span>
+      <h4>Dasun Nimasha</h4>
+      <span class="menu-spacer"></span>
+      <button class="btn btn-danger my-2 my-sm-0 rigt" (click)="onLogout()">Logout</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<app-menu></app-menu> -->
+<ng-material-multilevel-menu [configuration]='config' [items]='appitems' (selectedItem)="selectedItem($event)">
+  </ng-material-multilevel-menu>
  
 
